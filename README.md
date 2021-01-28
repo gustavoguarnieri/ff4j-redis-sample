@@ -1,6 +1,6 @@
 # ff4j-redis-sample
 
-This project is a sample of the ff4j framework with console authentication and redis database, working with feature flags, for more details visit: https://ff4j.github.io/
+This Kotlin project is a sample of the ff4j framework with console authentication and redis database, working with feature flags, for more details visit: https://ff4j.github.io/
 
 ## Quick Start
 
