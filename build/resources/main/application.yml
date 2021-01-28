@@ -1,0 +1,14 @@
+redis:
+  host: ${REDIS_HOST:localhost}
+  port: ${REDIS_PORT:6379}
+  lettuce:
+    pool:
+      max-active: 7
+      max-idle: 7
+      min-idle: 2
+
+feature-flag:
+  ff4j:
+    user: ${FF4J_USER:ff4j}
+    password: ${FF4J_PASSWORD:w5drajovlcHiP27bret_}
+    role: ${FF4J_ROLE:ADMIN}
